@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a3e0b6-a52d-4c76-be95-52329c729b85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="f9a3e0b6-a52d-4c76-be95-52329c729b85" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -93,24 +90,6 @@
               <item name="frontendtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontendtest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="frontendtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontendtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontendtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontendtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="frontendtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontendtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="StartPage" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553028927617</updated>
-      <workItem from="1553028929257" duration="2526000" />
+      <workItem from="1553028929257" duration="2919000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1553031089351</created>
@@ -175,11 +154,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553031089351</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init commit">
+      <created>1553031542620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553031542621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2526000" />
+    <option name="totallyTimeSpent" value="2919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -192,7 +178,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
