@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="-703" />
               <second_editor />
             </state>
           </provider>
@@ -60,6 +60,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="GregoryAndrievskiy" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="frontendTestTask" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553028927617</updated>
-      <workItem from="1553028929257" duration="2919000" />
+      <workItem from="1553028929257" duration="3234000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1553031089351</created>
@@ -165,7 +170,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2919000" />
+    <option name="totallyTimeSpent" value="3234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,11 +186,11 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49894625" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49894625" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50105375" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -230,7 +235,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="-703" />
           <second_editor />
         </state>
       </provider>
