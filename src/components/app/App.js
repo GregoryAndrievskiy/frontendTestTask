@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Router, Route } from "react-router";
-import { createBrowserHistory } from 'history';
 
 import './App.css';
 
-import { StartPage } from './pages/StartPage/StartPage';
+import { customHistory } from "../../history";
 
-const customHistory = createBrowserHistory();
+import { StartPage } from '../../pages/StartPage/StartPage';
+import { CreateTaskPage } from '../../pages/CreateTaskPage/CreateTaskPage';
+import { AboutPage } from '../../pages/AboutPage/AboutPage';
 
 class App extends Component {
     render() {
@@ -15,6 +16,8 @@ class App extends Component {
                 <div className="App">
                     <header className="App-header">
                         <Route exact path="/" component={StartPage} />
+                        <Route exact path="/add" component={CreateTaskPage} />
+                        <Route exact path="/about" component={AboutPage} />
                     </header>
                 </div>
             </Router>
