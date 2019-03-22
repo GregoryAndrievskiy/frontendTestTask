@@ -1,5 +1,4 @@
 import * as React from 'react';
-import TabMenu from '../../components/TabMenu/TabMenu';
 
 export class AboutPage extends React.Component {
     render() {
@@ -9,7 +8,6 @@ export class AboutPage extends React.Component {
                     Edit <code>src/App.js</code> and save to reload.
                 </p>
                 Something 'bout this app etc
-                <TabMenu />
             </div>
         )
     }

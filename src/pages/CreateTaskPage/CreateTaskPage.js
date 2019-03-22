@@ -3,7 +3,6 @@ import { reduxForm } from 'redux-form';
 
 import { TaskForm } from '../../components/forms/TaskForm/TaskForm';
 import { createTaskConnector } from '../../components/forms/TaskForm/connectors/createTaskConnector';
-import TabMenu from '../../components/TabMenu/TabMenu';
 
 const Form = reduxForm({
     form: 'createTask',
@@ -30,7 +29,6 @@ export class CreateTaskPage extends React.Component {
             <div className="CreateTask">
                 CREATE NEW TASK NOW!!!!! XXXTENTACTIONXXX
                 <CreateTaskContainer id="id0" />
-                <TabMenu />
             </div>
         )
     }
