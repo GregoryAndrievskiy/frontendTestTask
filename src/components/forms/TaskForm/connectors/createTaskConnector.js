@@ -1,9 +1,5 @@
-import { connect } from 'react-redux';
-import { customHistory } from "../../../../history";
-
-import { tasksActions } from '../../../../store/tasks/actions';
-
-const mapStateToProps = state => ({});
+import { connect } from "react-redux";
+import { tasksActions } from "../../../../store/tasks/actions";
 
 const mapDispatchToProps = (dispatch) => ({
     onSubmit: (values) => {
@@ -11,9 +7,7 @@ const mapDispatchToProps = (dispatch) => ({
             type: tasksActions.createTask,
             payload: values
         });
-
-        customHistory.push('/');
     }
 });
 
-export const createTaskConnector = connect(mapStateToProps, mapDispatchToProps);
+export const createTaskConnector = connect(() => ({}), mapDispatchToProps);

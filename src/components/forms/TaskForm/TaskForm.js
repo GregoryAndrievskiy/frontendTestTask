@@ -1,28 +1,24 @@
-import * as React from 'react';
-import { Field } from 'redux-form';
+import * as React from "react";
+import { Field } from "redux-form";
 
 export class TaskForm extends React.Component {
-    componentDidMount() {
-        console.log('this edit props componentDidMount', this.props);
-    }
     render() {
         const { handleSubmit } = this.props;
         const { valid } = this.props;
-        console.log('Create event form this.props', this.props);
 
         return (
-            <div>
-                <form onSubmit={handleSubmit}>
+            <div className="card">
+                <form onSubmit={handleSubmit} className="card-body">
                     <div>
-                        <h3>Input task name:</h3>
-                        <Field name='name' component='input' type='text' />
+                        <label className="grey-text font-weight-light" >Input task name:</label>
+                        <Field name="name" component="input" type="text" className="form-control" />
                     </div>
                     <div>
-                        <h3>Input task description:</h3>
-                        <Field name='description' component='input' type='textarea' />
+                        <label className="grey-text font-weight-light" >Input task description:</label>
+                        <Field name="description" component="input" type="textarea" className="form-control" />
                     </div>
-                    <button type='submit' disabled={!valid}>
-                        Register
+                    <button type="submit" disabled={!valid} className="button mt-3">
+                        Add new task
                     </button>
                 </form>
             </div>

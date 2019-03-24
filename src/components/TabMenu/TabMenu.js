@@ -1,10 +1,18 @@
-import * as React from 'react';
+import * as React from "react";
 import { Link } from "react-router-dom";
+
+import "./TabMenu.css";
 
 class TabMenu extends React.Component {
     render() {
+        const { isLoading } = this.props;
+
+        if (isLoading) {
+            return null;
+        }
+
         return (
-            <ul className="nav nav-pills nav-fill">
+            <ul className="TabMenu nav nav-pills nav-fill">
                 <li className="nav-item">
                     <Link to="/add" className="nav-link">
                         Create new task

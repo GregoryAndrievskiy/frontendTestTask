@@ -1,0 +1,16 @@
+.TaskList-Item {
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 10px 15px;
+}
+
+.TaskList-Name {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.TaskList-Description {
+    color: #999;
+}

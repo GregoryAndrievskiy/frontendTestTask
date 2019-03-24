@@ -1,30 +1,35 @@
-import shortid  from 'shortid';
-import { tasksActions } from './actions';
+import shortid  from "shortid";
+import { tasksActions } from "./actions";
 
-const initialState = {
-    items: {
-       [shortid.generate().toString()]: {
-            name: 'test task',
-            description: 'start it whenever'
-        },
-        [shortid.generate().toString()]: {
-            name: 'test task',
-            description: 'start it whenever'
-        }
-    }
-};
+const initialState = { status: "OK", items: {} };
 
 export const tasksReducer = (state = initialState, action) => {
     switch (action.type) {
-        case tasksActions.createTask:
-            console.log('tasksActions action', action);
+        case tasksActions.createTaskSuccess:
+            const id = shortid.generate().toString();
+
             return {
                 ...state,
                 items: {
                     ...state.items,
-                    [shortid.generate().toString()]: {
+                    [id]: {
+                        id,
                         ...action.payload
                     }
+                }
+            };
+        case tasksActions.fetchTasksRequest:
+            return {
+                ...state,
+                status: "LOADING"
+            };
+        case tasksActions.fetchTasksSuccess:
+            return {
+                ...state,
+                status: "OK",
+                items: {
+                    ...state.items,
+                    ...action.payload
                 }
             };
         default:

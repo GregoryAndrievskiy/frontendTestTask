@@ -1,5 +1,8 @@
-import * as React from 'react';
-import shortid from "shortid";
+import * as React from "react";
+
+import { Loader } from "../Loader/Loader";
+
+import "./TasksList.css";
 
 export class TasksList extends React.Component {
     constructor(props) {
@@ -8,25 +11,30 @@ export class TasksList extends React.Component {
     }
 
     componentDidMount() {
-        //this.props.onMount();
+        this.props.onMount();
     }
 
     render() {
-        if (!this.props.items) {
+        if (!this.props.isLoading && this.props.items.length === 0) {
             return null;
         }
 
         return (
-            <div className="">
-                <div>Your events are: {this.props.items.map(this.renderTask)}</div>
+            <div>
+                {
+                    this.props.isLoading ?
+                        <Loader /> :
+                        this.props.items.map(this.renderTask)
+                }
             </div>
         )
     }
 
     renderTask(item) {
         return (
-            <div key={shortid.generate().toString()}>
-                <div>task name: {item.name}</div>
+            <div key={item.id} className="TaskList-Item">
+                <div className="TaskList-Name">{item.name}</div>
+                <div className="TaskList-Description">{item.description}</div>
             </div>
         );
     }
